@@ -23,37 +23,6 @@ void Display(Node*);
 	
 int main()
 {
-    start = NULL;
-    int inf; 
-    char ch = 'y';
-    
-    while(ch == 'y' || ch == 'Y')
-    {
-        cout<<"\n Enter INFO : "; cin>>inf;
-        
-        newptr = Create_New_Node(inf);
-        
-        if(newptr != NULL)
-        {
-            cout<<"\n New Node Created !! ";
-        }
-        else
-        {
-            cout<<"\n Cant Create New Node !! Aborting !! ";
-            exit(0);
-        }
-        
-        cout<<"\n Now inserting this node at the beginning of the list ";
-        
-        Insert_Beg(newptr);
-        
-        cout<<"\n Now the list is : ";
-        
-        Display(start);
-        
-        cout<<"\n Press Y to enter more Nodes or N to exit : ";
-        cin>>ch; cout<<endl;
-    }
-    
+   
     return 0;
 }
