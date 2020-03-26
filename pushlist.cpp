@@ -17,7 +17,31 @@ Node *Create_New_Node(int n)
     return ptr;
 }
 
-void Insert_Beg(Node*);
+
+void Insert_Beg(Node *np)
+{
+    if(start == NULL)
+        start = np;
+    else
+    {
+        save = start;
+        start = np;
+        np->next = save;
+    }
+}
+
+void Display(Node *np)
+{
+    while(np != NULL)
+    {
+        cout<<np->info<<" -> ";
+        np = np->next;
+    }
+    
+    cout<<" !!! \n";
+}
+
+
 void Display(Node*);
 
 	
