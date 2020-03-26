@@ -1,10 +1,11 @@
 #include<iostream>
+
 using namespace std;
 
 struct Node
 {
-    int info;
-    Node *next;
+	int info;
+	Node *next;
     
 } *start, *newptr, *save, *ptr;
 
@@ -16,7 +17,6 @@ Node *Create_New_Node(int n)
     
     return ptr;
 }
-
 
 void Insert_Beg(Node *np)
 {
