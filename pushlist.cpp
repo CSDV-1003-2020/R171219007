@@ -41,9 +41,6 @@ void Display(Node *np)
     cout<<" !!! \n";
 }
 
-
-void Display(Node*);
-
 	
 int main()
 {
