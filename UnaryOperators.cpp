@@ -4,32 +4,32 @@ using namespace std;
 int main() 
 { 
     // Post increment 
-    int a = 1; 
-    cout << " a value : " << a << endl; 
+    int a = 2; 
+    cout << " A value : " << a << endl; 
     int b = a++; 
-    cout << " b value after a++ : " << b << endl; 
-    cout << " a value after a++ : " << a << endl;
+    cout << " B value after A++ : " << b << endl; 
+    cout << " A value after A++ : " << a << endl;
 	
     // Pre increment 
-    a = 1; 
-    cout << " a value : " << a << endl; 
+    a = 2; 
+    cout << " A value : " << a << endl; 
     b = ++a; 
-    cout << " b value after ++a : " << b << endl; 
-    cout << " a value after ++a : " << a << endl;
+    cout << " B value after ++A : " << b << endl; 
+    cout << " A value after ++A : " << a << endl;
 	
 	// Post decrement 
-    a = 5; 
-    cout << " a value before decrement : " << a << endl; 
+    a = 6; 
+    cout << " A value before decrement : " << a << endl; 
     b = a--; 
-    cout << " b value after a-- : " << b << endl; 
-    cout << " a value after a-- : " << a << endl;
+    cout << " B value after A-- : " << b << endl; 
+    cout << " A value after A-- : " << a << endl;
 	
 	// Pre decrement 
-    a = 5; 
-    cout << " a value : " << a <<endl; 
+    a = 6; 
+    cout << " A value : " << a <<endl; 
     b = --a; 
-    cout << " b value after --a : " << b << endl; 
-    cout << " a value after --a : " << a << endl;
+    cout << " B value after --A : " << b << endl; 
+    cout << " A value after --A : " << a << endl;
 
     return 0;
 }	
