@@ -11,3 +11,26 @@ Types of unary operators:-
 5. Addressof operator(&)
 6. sizeof()
 
+(1) Unary minus - The minus operator changes the sign of its argument.
+A positive number becomes negative, and a negative number becomes positive.
+
+    int a = 10;
+    int b = -a;  // b = -10
+
+unary minus is different from subtraction operator, as subtraction requires two operands.
+
+(2) Increment - It is used to increment the value of the variable by 1.
+The increment can be done in two ways:
+
+    (a)Prefix increment - In this method, the operator preceeds the operand (e.g., ++a). T
+    he value of operand will be altered before it is used.
+       int a = 1;
+       int b = ++a;  // b = 2
+
+    (b)Postfix increment - In this method, the operator follows the operand (e.g., a++).
+    The value operand will be altered after it is used.
+       int a = 1;
+       int b = a++;   // b = 1
+       int c = a;     // c = 2
+
+
