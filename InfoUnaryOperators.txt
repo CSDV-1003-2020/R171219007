@@ -1,0 +1,70 @@
+                             Unary Operators In C/C++
+                                              
+Unary operator are operators that act upon a single operand to produce a new value.
+
+Types of unary operators:-
+
+1. unary minus(-)
+2. increment(++)
+3. decrement(- -)
+4. NOT(!)
+5. Addressof operator(&)
+6. sizeof()
+
+(1) Unary minus - The minus operator changes the sign of its argument.
+A positive number becomes negative, and a negative number becomes positive.
+
+    int a = 10;
+    int b = -a;  // b = -10
+
+unary minus is different from subtraction operator, as subtraction requires two operands.
+
+(2) Increment - It is used to increment the value of the variable by 1.
+The increment can be done in two ways:
+
+    (a)Prefix increment - In this method, the operator preceeds the operand (e.g., ++a). T
+    he value of operand will be altered before it is used.
+       int a = 1;
+       int b = ++a;  // b = 2
+
+    (b)Postfix increment - In this method, the operator follows the operand (e.g., a++).
+    The value operand will be altered after it is used.
+       int a = 1;
+       int b = a++;   // b = 1
+       int c = a;     // c = 2
+
+(3) Decrement - It is used to decrement the value of the variable by 1. 
+The increment can be done in two ways:
+
+    (a)Prefix decrement - In this method, the operator preceeds the operand (e.g., – -a). 
+    The value of operand will be altered before it is used.
+       int a = 1;
+       int b = --a;  // b = 0
+     
+    (b)Posfix decrement - In this method, the operator follows the operand (e.g., a- -). 
+    The value of operand will be altered after it is used.
+       int a = 1;
+       int b = a--;   // b = 1
+       int c = a;     // c = 0
+ 
+(4) NOT(!) - It is used to reverse the logical state of its operand. 
+If a condition is true, then Logical NOT operator will make it false.
+
+    If x is true, then !x is false
+    If x is false, then !x is true
+
+(5) Addressof operator(&) - It gives an address of a variable. 
+It is used to return the memory address of a variable. 
+These addresses returned by the address-of operator are known as pointers because they 
+“point” to the variable in memory.
+
+    & gives an address on variable n
+    int a;
+    int *ptr;
+    ptr = &a; // address of a is copied to the location ptr. 
+    
+(6) Sizeof() - This operator returns the size of its operand, in bytes. 
+The sizeof operator always precedes its operand.The operand is an expression, 
+or it may be a cast.
+
+
