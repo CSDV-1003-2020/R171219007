@@ -33,4 +33,24 @@ The increment can be done in two ways:
        int b = a++;   // b = 1
        int c = a;     // c = 2
 
+(3) Decrement - It is used to decrement the value of the variable by 1. 
+The increment can be done in two ways:
 
+    (a)Prefix decrement - In this method, the operator preceeds the operand (e.g., – -a). 
+    The value of operand will be altered before it is used.
+       int a = 1;
+       int b = --a;  // b = 0
+     
+    (b)Posfix decrement - In this method, the operator follows the operand (e.g., a- -). 
+    The value of operand will be altered after it is used.
+       int a = 1;
+       int b = a--;   // b = 1
+       int c = a;     // c = 0
+ 
+(4) NOT(!) - It is used to reverse the logical state of its operand. 
+If a condition is true, then Logical NOT operator will make it false.
+
+    If x is true, then !x is false
+    If x is false, then !x is true
+
+    
