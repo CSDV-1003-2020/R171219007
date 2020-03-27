@@ -1,0 +1,13 @@
+                             Unary Operators In C/C++
+                                              
+Unary operator are operators that act upon a single operand to produce a new value.
+
+Types of unary operators:-
+
+1. unary minus(-)
+2. increment(++)
+3. decrement(- -)
+4. NOT(!)
+5. Addressof operator(&)
+6. sizeof()
+
