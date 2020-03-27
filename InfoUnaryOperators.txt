@@ -53,4 +53,18 @@ If a condition is true, then Logical NOT operator will make it false.
     If x is true, then !x is false
     If x is false, then !x is true
 
+(5) Addressof operator(&) - It gives an address of a variable. 
+It is used to return the memory address of a variable. 
+These addresses returned by the address-of operator are known as pointers because they 
+“point” to the variable in memory.
+
+    & gives an address on variable n
+    int a;
+    int *ptr;
+    ptr = &a; // address of a is copied to the location ptr. 
     
+(6) Sizeof() - This operator returns the size of its operand, in bytes. 
+The sizeof operator always precedes its operand.The operand is an expression, 
+or it may be a cast.
+
+
