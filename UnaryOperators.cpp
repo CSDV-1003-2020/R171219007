@@ -3,28 +3,28 @@ using namespace std;
 
 int main() 
 { 
-    // Post increment 
+    // Post Increment 
     int a = 2; 
     cout << " A value : " << a << endl; 
     int b = a++; 
     cout << " B value after A++ : " << b << endl; 
     cout << " A value after A++ : " << a << endl;
 	
-    // Pre increment 
+    // Pre Increment 
     a = 2; 
     cout << " A value : " << a << endl; 
     b = ++a; 
     cout << " B value after ++A : " << b << endl; 
     cout << " A value after ++A : " << a << endl;
 	
-	// Post decrement 
+	// Post Decrement 
     a = 6; 
     cout << " A value before decrement : " << a << endl; 
     b = a--; 
     cout << " B value after A-- : " << b << endl; 
     cout << " A value after A-- : " << a << endl;
 	
-	// Pre decrement 
+	// Pre Decrement 
     a = 6; 
     cout << " A value : " << a <<endl; 
     b = --a; 
@@ -33,4 +33,5 @@ int main()
 
     return 0;
 }	
+// This is a program to understand unary operators in C++	
 	
