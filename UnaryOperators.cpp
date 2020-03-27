@@ -23,6 +23,13 @@ int main()
     b = a--; 
     cout << " b value after a-- : " << b << endl; 
     cout << " a value after a-- : " << a << endl;
+	
+	// Pre decrement 
+    a = 5; 
+    cout << " a value : " << a <<endl; 
+    b = --a; 
+    cout << " b value after --a : " << b << endl; 
+    cout << " a value after --a : " << a << endl;
 
     return 0;
 }	
