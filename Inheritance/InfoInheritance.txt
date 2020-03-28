@@ -1,4 +1,4 @@
-                                                Inheritance In C++
+                                                  Inheritance In C++
 
 The capability of a class to derive properties and characteristics from another class is called Inheritance. 
 Inheritance is one of the most important feature of Object Oriented Programming.
@@ -8,6 +8,18 @@ Super Class: The class whose properties are inherited by sub class is called Bas
 Syntax:
 class subclass_name : access_mode base_class_name
 {
-  //body of subclass
+  // Body Of Subclass
 };
 
+                                                Modes Of Inheritance
+
+1. Public Mode: If we derive a sub class from a public base class.
+   Then the public member of the base class will become public in the
+   derived class and protected members of the base class will become protected in derived class.
+
+2. Protected Mode: If we derive a sub class from a Protected base class.
+   Then both public member and protected members of the base class will become protected in derived class.
+
+3. Private Mode: If we derive a sub class from a Private base class.
+   Then both public member and protected members of the base class will become Private in derived class.
+   
