@@ -63,3 +63,31 @@ class D : private A    // 'private' is default for classes
     // z is not accessible from D 
 }; 
 
+                                                   Types Of Inheritance In C++
+
+1. Single Inheritance: In single inheritance, a class is allowed to inherit from only one class
+   i.e. one sub class is inherited by one base class only.
+
+Syntax:
+class subclass_name : access_mode base_class
+{
+  //body of subclass
+};
+
+2. Multiple Inheritance: Multiple Inheritance is a feature of C++ where a class can inherit from more
+   than one classes. i.e one sub class is inherited from more than one base classes.
+
+Syntax:
+class subclass_name : access_mode base_class1, access_mode base_class2, ....
+{
+  //body of subclass
+};
+
+3. Multilevel Inheritance: In this type of inheritance, a derived class is created from another derived class.
+
+4. Hierarchical Inheritance: In this type of inheritance, more than one sub class is inherited from a single
+   base class i.e. more than one derived class is created from a single base class.
+
+5. Hybrid (Virtual) Inheritance: Hybrid Inheritance is implemented by combining more than one type of inheritance.
+   For example: Combining Hierarchical inheritance and Multiple Inheritance.
+   
