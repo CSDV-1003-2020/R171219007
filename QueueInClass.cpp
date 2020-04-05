@@ -57,4 +57,21 @@ class Queue
              }
        }
 	   
-	   
+	   void qtraverse()
+       {
+              if(front==-1)
+              {
+                      cout<<"\n\nQUEUE IS EMPTY\n";
+              }
+              else
+              {
+                      cout<<"\n\nQUEUE ITEMS\n";
+                      for(int i=front;i<=rear;i++)
+                      {
+                               cout<<queue[i]<<" ";
+                      }
+                      cout<<endl;
+              }
+        }
+};
+
