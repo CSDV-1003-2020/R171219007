@@ -33,4 +33,28 @@ class Queue
                 queue[rear]=item;
                 cout<<"\nITEM INSERTED: "<<item;
              }
+	   }
+	   
+	   void qdelete()
+       {
+              int item;
+  
+              if(rear==-1)
+             {
+                cout<<"\nQUEUE UNDERFLOW";
+             }
+             else if(front==0 && rear==0)
+             {
+                       item=queue[front];
+                       front=rear=-1;
+                       cout<<"\n\nITEM DELETED: "<<item;
+             }
+             else
+             {
+                      item=queue[front];
+                      front++;
+                      cout<<"\n\nITEM DELETED: "<<item;
+             }
        }
+	   
+	   
