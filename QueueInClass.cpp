@@ -75,3 +75,19 @@ class Queue
         }
 };
 
+int main()
+{
+      Queue q;
+ 
+      q.qtraverse();
+      q.qinsert(10);
+      q.qinsert(20);
+ 
+      q.qtraverse();
+ 
+      q.qdelete();
+      q.qinsert(30);
+ 
+      q.qtraverse();
+      return 0;
+}
