@@ -27,7 +27,7 @@ class Car: public fourWheeler{
 };
  
 // main function
-int main()
+int main()//return integer value
 {    
     //creating object of sub class will
     //invoke the constructor of base classes
