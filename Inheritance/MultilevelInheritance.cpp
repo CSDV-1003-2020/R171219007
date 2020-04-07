@@ -24,7 +24,7 @@ class Car: public fourWheeler{
      {
        cout<<"Car has 4 Wheels"<<endl;
      }};
- //class completed
+ //class complete9d
 // main function
 int main()//return integer value
 {    
@@ -32,5 +32,5 @@ int main()//return integer value
     //invoke the constructor of base classes
     Car obj;
     return 0;
-}//end programme
-
+}//end of a  programme
+//programme is tested
