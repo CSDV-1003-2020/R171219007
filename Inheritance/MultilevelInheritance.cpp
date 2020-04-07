@@ -23,9 +23,8 @@ class Car: public fourWheeler{
      car()
      {
        cout<<"Car has 4 Wheels"<<endl;
-     }
-};
- 
+     }};
+ //class completed
 // main function
 int main()//return integer value
 {    
