@@ -1,0 +1,93 @@
+                                                  Inheritance In C++
+
+The capability of a class to derive properties and characteristics from another class is called Inheritance. 
+Inheritance is one of the most important feature of Object Oriented Programming.
+Sub Class: The class that inherits properties from another class is called Sub class or Derived Class.
+Super Class: The class whose properties are inherited by sub class is called Base Class or Super class.
+
+Syntax:
+class subclass_name : access_mode base_class_name
+{
+  // Body Of Subclass
+};
+
+                                                Modes Of Inheritance
+
+1. Public Mode: If we derive a sub class from a public base class.
+   Then the public member of the base class will become public in the
+   derived class and protected members of the base class will become protected in derived class.
+
+2. Protected Mode: If we derive a sub class from a Protected base class.
+   Then both public member and protected members of the base class will become protected in derived class.
+
+3. Private Mode: If we derive a sub class from a Private base class.
+   Then both public member and protected members of the base class will become Private in derived class.
+
+Note: The private members in the base class cannot be directly accessed in the derived class, 
+      while protected members can be directly accessed. For example, Classes B, C and D all contain 
+      the variables x, y and z in below example. It is just question of access.
+
+For Example :
+// C++ Implementation to show that a derived class 
+// doesn’t inherit access to private data members.  
+// However, it does inherit a full parent object
+
+class A  
+{ 
+public: 
+    int x; 
+protected: 
+    int y; 
+private: 
+    int z; 
+}; 
+  
+class B : public A 
+{ 
+    // x is public 
+    // y is protected 
+    // z is not accessible from B 
+}; 
+  
+class C : protected A 
+{ 
+    // x is protected 
+    // y is protected 
+    // z is not accessible from C 
+}; 
+  
+class D : private A    // 'private' is default for classes 
+{ 
+    // x is private 
+    // y is private 
+    // z is not accessible from D 
+}; 
+
+                                                   Types Of Inheritance In C++
+
+1. Single Inheritance: In single inheritance, a class is allowed to inherit from only one class
+   i.e. one sub class is inherited by one base class only.
+
+Syntax:
+class subclass_name : access_mode base_class
+{
+  //body of subclass
+};
+
+2. Multiple Inheritance: Multiple Inheritance is a feature of C++ where a class can inherit from more
+   than one classes. i.e one sub class is inherited from more than one base classes.
+
+Syntax:
+class subclass_name : access_mode base_class1, access_mode base_class2, ....
+{
+  //body of subclass
+};
+
+3. Multilevel Inheritance: In this type of inheritance, a derived class is created from another derived class.
+
+4. Hierarchical Inheritance: In this type of inheritance, more than one sub class is inherited from a single
+   base class i.e. more than one derived class is created from a single base class.
+
+5. Hybrid (Virtual) Inheritance: Hybrid Inheritance is implemented by combining more than one type of inheritance.
+   For example: Combining Hierarchical inheritance and Multiple Inheritance.
+   
