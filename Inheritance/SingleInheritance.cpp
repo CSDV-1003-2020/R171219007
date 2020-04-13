@@ -3,8 +3,7 @@
 using namespace std; 
   
 // base class 
-class Vehicle 
-{ 
+class Vehicle { 
   public: 
     Vehicle() 
     { 
@@ -13,11 +12,10 @@ class Vehicle
 }; 
   
 // sub class derived from two base classes 
-class Car: public Vehicle
-{ 
+class Car: public Vehicle{ 
   
-};
-
+}; 
+  
 // main function 
 int main() 
 {    
